@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Título 1</title>
+</head>
+<body>
+    <!-- DIV ES UNA ETIQUETA GENERAL -->
+    <div>
+        <!-- NAV ES UNA ETIQUETA PARA ESTABLECER BARRAS DE NAVEGACIÓN -->
+        <nav>
+            <!-- "A" SE REFIERE A ENLACES EXTERNOS-->
+            <a href="https://ironhack.com" target="_blank">Ir a Ironhack</a>
+            
+            <a href="https://google.com" target="_blank">Ir a Google</a>
+
+            <a href="./adicional.html" target="_blank">Ir a página adicional</a>
+
+        </nav>
+
+        <!-- SECTION SE UTILIZA PARA ESTABLECER UNA PARTE DE LA PÁGINA  -->
+        <section id="main">
+            <h1 id="titulo-1">Título 1</h1>
+            <h2 id="titulo-2">Título 2</h2>
+            <p>
+                Hola, soy un párrafo.
+            </p>
+
+            <!-- PARA ESTABLECER QUE VOY A UTILIZAR UNA IMAGEN (ENVOLTURA) -->
+            <figure>
+                <!-- GENERAR UNA IMAGEN -->
+                <!-- 2 FORMAS DE GENERAR UNA RUTA 
+                -->
+                <!-- A. RUTA ABSOLUTA -->
+                <img src="http://los40ar00.epimg.net/los40/imagenes/2020/09/11/tecnologia/1599840475_254452_1599841345_noticia_normal.jpg" alt="Perrito de color café con corbata negra" /> 
+                <!-- B. RUTA RELATIVA -->
+                <img src="./img/perrito.jpg" alt="Perrito con gorrito" />
+
+
+            </figure>
+            <!--Lista ordenada-->
+            <ol>
+                <li>listado1</li>
+                <li>listado2</li>
+                <li>listado3</li>
+            </ol>
+            <!--Lista desordenada-->
+            <ul>
+                <li id="list-1" class="list">1</li>
+                <li id="list-2" class="list">2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+
+                <table>
+                    <!--Filas-->
+                    <tr>
+                        <!--Encabezados-->
+                        <th>Nombre</th>
+                        <th>Bootcamp</th>
+                        <th>Ciudad</th>
+                    </tr>
+                    <tr>
+                        <td>Jose Perez</td>
+                        <td>Fullstack</td>
+                        <td>Madrid</td>
+                    </tr>
+                </table>
+
+                <form>
+                    <label for="name">
+                        Escribe tu nombre
+                    </label>                
+                    <input type="text" name="name"/>
+    
+                    <hr />
+    
+                    <label for="email">
+                        Escribe tu email
+                    </label>                
+                    <input type="email" name="email"/>
+    
+                    <hr />
+    
+                    <label for="email">
+                        Elige tu fecha de nacimiento
+                    </label>                
+                    <input type="date" name="birthDate"/>
+    
+                    <hr />
+    
+                    <select name="options" >
+                        <option>Opción 1</option>
+                        <option>Opción 2</option>
+                    </select>
+    
+                    <hr />
+    
+                    <label for="mascota">
+                        Activa la casilla si tienes mascota
+                    </label>                
+                    <input type="checkbox" name="pet"/>
+                    
+                    <hr />
+    
+                    <button type="submit">
+                        Enviar
+                    </button>
+    
+    
+                </form>
+
+        </section>
+
+
+    </div>
+
+    
+</body>
+</html>

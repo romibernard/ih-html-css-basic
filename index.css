@@ -1,0 +1,33 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,700;1,300;1,700&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 16px;
+}
+/*body - Selector */
+body {
+    background-color: rgb(194, 190, 190);
+    color: rgba(54, 53, 53)
+}
+
+a {
+    /*Quita el subrayado*/
+    text-decoration: none;
+    color: rgb(29, 72, 189);
+    font-weight: bold;
+}
+
+/*ID's*/
+#titulo-1 {
+    color:red;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/*CLASES*/
+.list {
+    color: rgb(100, 123, 255);
+}
+
+/*MEDIA QUERIES*/
